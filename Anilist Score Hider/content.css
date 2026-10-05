@@ -1,0 +1,25 @@
+.score-spoiler:not(.score-spoiler-revealed) {
+  background: rgb(11, 22, 34);
+  color: transparent !important;
+  cursor: pointer;
+}
+
+.percentage-spoiler {
+  background: rgb(21, 31, 46);
+  color: transparent !important;
+}
+
+.smile-spoiler {
+  background: rgb(21, 31, 46);
+  color: transparent !important;
+}
+
+.meh-spoiler {
+  background: rgb(21, 31, 46);
+  color: transparent !important;
+}
+
+.frown-spoiler {
+  background: rgb(21, 31, 46);
+  color: transparent !important;
+}
