@@ -1,3 +1,6 @@
+[I used AI to help me make this project. I have 0 experience making stuff like that, but i tried not to rely on it too much]. Simple extension you can load into your browser that hides both mean and average score on all anime and manga pages, while also hiding the score in the while browsing stuff like top 100. Score can be revealed with just a click on the hidden score
+
+
 The file contains all needed script to make the extension work. Download the zip, unzip it and go to your extensions tab, enable developer mode, and just load the files in there and it
 all should work just fine. 
 
