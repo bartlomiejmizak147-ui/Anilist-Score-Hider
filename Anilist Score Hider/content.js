@@ -2,14 +2,16 @@ function hideScores() {
   const boxes = document.querySelectorAll("div");
 
   for (const box of boxes) {
-    if (box.textContent === "Average Score" || box.textContent === "Mean Score") {
+    if (box.textContent.trim() === "Weighted Score" || box.textContent.trim() === "Mean Score") {
       const value = box.nextElementSibling;
+      if (!value) continue;
 
       if (!value.classList.contains("score-spoiler")) {
         value.classList.add("score-spoiler");
 
-        value.addEventListener("click", function () {
-            value.classList.toggle("score-spoiler-revealed");
+        const row = value.closest(".data-set") || value;
+        row.addEventListener("click", function () {
+          value.classList.toggle("score-spoiler-revealed");
         });
       }
     }
